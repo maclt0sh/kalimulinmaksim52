@@ -85,6 +85,112 @@ h1{
 .mainlc{
     font-size: 18px;
 }
+@media (max-width: 768px)
+{
+    .navbar {
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+        width: 30%;
+        height: 70px;
+        box-shadow: none;
+        padding: 0;
+    }
+
+    .navbar-menu li a {
+        padding: 40px;
+        font-size: 16px;
+    }
+    
+    .navbar-menu {
+        display: flex; 
+    }
+    .cont .navbar-logo{
+        font-size: 25px;
+        white-space: nowrap;
+        padding-left: 100px;
+    }
+    .right-col {
+        flex-direction: column; 
+        align-items: center;
+        padding: 25px;
+    }
+    
+    .img1 {
+        flex-direction: column; /
+    }
+    
+    .left-col {
+        text-align: center;
+
+    }
+    
+    .left-col img {
+        width: 100%; 
+        padding: 40px 0; 
+    }
+    
+}
+
+@media screen and (max-width: 430px) {
+    .cont .navbar-logo{
+        padding-left: 50px;
+        font-size: 20px;
+    }
+    .navbar-menu{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .navbar-menu li a{
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .right-col .lc-text p{
+        font-size: 17px;
+    }
+    .right-col .lc-text .xarak p{
+        font-size: 15px;
+    }
+    .right-col .lc-text .lclvl1{
+        padding: 10px 20px;
+    }
+
+    .right-col .mainlc{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+   
+    .cont .navbar-logo{
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    .navbar-menu{
+        padding-right: 10px;
+    }
+    .navbar-menu li a{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .right-col .lc-text p{
+        font-size: 17px;
+    }
+    .right-col .lc-text .xarak p{
+        font-size: 15px;
+    }
+    .right-col .lc-text .lclvl1{
+        padding: 10px 20px;
+    }
+
+    .right-col .mainlc{
+        font-size: 14px;
+    }
+    
+}
 
 
 
